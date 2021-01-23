@@ -21,7 +21,10 @@ git clone https://github.com/jefferymvp/luci-app-koolproxyR package/luci-app-koo
 # 微信推送插件
 git clone https://github.com/tty228/luci-app-serverchan package/luci-app-serverchan
 # 京东签到插件
-#git clone https://github.com/jerrykuku/luci-app-jd-dailybonus package/luci-app-jd-dailybonus
+pushd package/lean
+rm -rf luci-app-jd-dailybonus
+git clone https://github.com/jerrykuku/luci-app-jd-dailybonus package/luci-app-jd-dailybonus
+popd
 # adguardhome插件
 git clone https://github.com/rufengsuixing/luci-app-adguardhome package/luci-app-adguardhome
 # Clash插件
