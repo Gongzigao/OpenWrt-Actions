@@ -29,6 +29,8 @@ git clone https://github.com/tty228/luci-app-serverchan package/luci-app-serverc
 git clone https://github.com/rufengsuixing/luci-app-adguardhome package/luci-app-adguardhome
 # Clash插件
 git clone https://github.com/frainzy1477/luci-app-clash package/luci-app-clash
+#PassWall插件
+git clone https://github.com/xiaorouji/openwrt-passwall package/openwrt-passwall
 # SmartDNS插件
 git clone https://github.com/pymumu/openwrt-smartdns package/openwrt-smartdns
 git clone -b lede https://github.com/pymumu/luci-app-smartdns package/luci-app-smartdns
